@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   const [inputText, setInputText] = useState("");
   const [items, setItems] = useState([]);
+
 
   function handleChange(event) {
     const newValue = event.target.value;
